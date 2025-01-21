@@ -1,5 +1,5 @@
 - name: PLAY1
-  hosts: local
+  hosts: local  # Corrected from 'host' to 'hosts'
   connection: local
   tasks:
     - name: play1 and task1
@@ -7,7 +7,7 @@
         msg: "Hello from play1 and task1"
 
 - name: PLAY2 and task1
-  hosts: local
+  hosts: local  # Corrected from 'host' to 'hosts'
   connection: local
   tasks:
     - name: play2 and task1
